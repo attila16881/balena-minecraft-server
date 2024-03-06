@@ -43,7 +43,7 @@ To run this project is as simple as deploying it to a balenaCloud application; n
 
 You can deploy this server with one click with the button below. Or, you can follow the manual deployment instructions in the next section.
 
-[![](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/AlexProgrammerDE/balena-minecraft-server)
+[![](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/attila16881/balena-minecraft-server)
 
 ### Manually Deploy this application :airplane:
 
@@ -95,7 +95,7 @@ Devices like the Raspberry Pi 4B 4GB or the 8GB model have enough RAM to run the
 
 ## Add plugins (optional) :wrench:
 
-balenaMinecraftServer also supports plugins. Just drop the in the plugins folder using [`SCP`](https://github.com/AlexProgrammerDE/balena-minecraft-server#connect-to-the-file-directory-satellite). The current Minecraft version is `1.16`. You can get your plugins from there(Other work too.): 
+balenaMinecraftServer also supports plugins. Just drop the in the plugins folder using [`SCP`](https://github.com/attila16881/balena-minecraft-server#connect-to-the-file-directory-satellite). The current Minecraft version is `1.16`. You can get your plugins from there(Other work too.): 
 
 * Spigot resources: https://www.spigotmc.org/resources/categories/spigot.4/
 * Bukkit: https://dev.bukkit.org/bukkit-plugins
@@ -133,7 +133,7 @@ Note: Balena Minecraft Server uses Paper. It is an efficient and powerful server
 
 If you want to use a different Minecraft Sever .jar, add a variable called `JAR_FILE`. The value should be the same as your custom .jar file that you placed in the serverfiles directory using SCP.
 
-I encourage you to take your server build even further! There are many tutorials out there on server customization-- this README only touches on a few ideas. If you need help, please reach out by submitting an [issue on GitHub](https://github.com/AlexProgrammerDE/balena-minecraft-server/issues).
+I encourage you to take your server build even further! There are many tutorials out there on server customization-- this README only touches on a few ideas. If you need help, please reach out by submitting an [issue on GitHub](https://github.com/attila16881/balena-minecraft-server/issues).
 
 ## 🌈 Community
 
