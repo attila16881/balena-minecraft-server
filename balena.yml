@@ -1,6 +1,6 @@
 name: Minecraft Server
 description: >-
-  Build a Minecraft Server using a Raspberry Pi 4! 
+  Build a Minecraft Server using a UP Squared powered by Intel! 
   Supports common Servers, SCP, RCON and Wifi Connect.
 fleetcta: Lets break some blocks!
 post-provisioning: >-
@@ -13,17 +13,16 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/AlexProgrammerDE/balena-minecraft-server'
+      url: 'https://github.com/attila16881/balena-minecraft-server'
   logo:
     type: blob.asset
     data:
       url: >-
-        https://raw.githubusercontent.com/AlexProgrammerDE/balena-minecraft-server/main/logo.png
+        https://raw.githubusercontent.com/attila16881/balena-minecraft-server/main/logo.png
 data:
   applicationEnvironmentVariables:
     - RAM: 1G
-  defaultDeviceType: raspberrypi4-64
+  defaultDeviceType: x86-64
   supportedDeviceTypes:
-    - raspberrypi4-64
-    - jetson-nano
+    - x86-64
 version: 1.1.1
